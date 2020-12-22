@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @media screen and (min-width: 0px) and (max-width: 2000px){
+    body{
+        /* display:flex; */
+        background:url(images/this.jpg)
+        no-repeat center center fixed;
+        background-size: cover;
+        font-family: sans-serif;
+        margin-top: 1%;
+        /* filter:invert(100%); */
+        /* flex-wrap:wrap; */
+    }
+    .wrapper{
+        text-align:center;
+    
+    }
+    .header{
+        background-color: #404040;
+        color:#fff;
+        font-size:26px;
+        width: 40%;
+        padding:5px;
+        margin:0 auto;
+        opacity:0.8;
+    }
+    .form{
+        background-color: #404040;
+        color:#fff;
+        height:100vh;
+        font-size: 26px;
+        width:40%;
+        padding:5px;
+        margin:0 auto;
+        opacity:0.8;
+    }
+    label, .block{
+        display: block;
+        margin:15px 0;
+        text-align:center;
+        font-size: 26px;
+    }
+    .block{
+        border-radius: 10px;
+        font-size: 20px;
+        margin-left: 34%;
+    }
+    img{
+        margin-top: 20%;
+        border-radius: 50%;
+        width:100px;
+        height:100px;
+        filter:invert(100%);
+    }
+    button{
+        font-size: 18px;
+        margin:7% auto;
+        display: block;
+    }
+    a{
+        text-decoration: none;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+}
+
+
+
+</style>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Welcome Buddy!! </h1><br>
+            <h2>LOGIN</h2>
+        </div>
+        <div class="form">
+            <img src="https://static.thenounproject.com/png/1094128-200.png" alt="Admin">
+            <form action="">
+                <label for="">Email</label>
+                <input type="email" class="block"><br>
+                <label for="">Password</label>
+                <input type ="password" class="block">
+                <input type="checkbox">Remember Me
+                <a href="#"><button>Submit</button></a>
+            </form>
+            <p>&copy; Designed by Mohnaa Ghosh</p>
+        </div>
+    </div>
+</body>
+</html>
